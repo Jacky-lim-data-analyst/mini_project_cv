@@ -24,3 +24,6 @@
 - Weekly programming assignments
 - Mid-term project: Image processing
 - Final project: Developing a complete pipeline / model to tackle CV problems
+
+## Access notebooks in Google colab
+- Week 3 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w3_tutorial.ipynb)
