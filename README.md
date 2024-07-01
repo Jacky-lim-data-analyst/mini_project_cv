@@ -8,6 +8,7 @@
 - Understanding of basic probability and statistics
 
 ## Course content
+Starting from week 2, the course outline is as follows:
 1. Python fundamentals
 3. Basic image & video operations
 4. Basic concepts of digital image
