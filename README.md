@@ -33,9 +33,9 @@ Starting from week 2, the course outline is as follows:
 - Week 5 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w5_tutorial.ipynb)
 
 > **Warning** 🚨
->
 > It should be noted that the execution of `cv.imshow()` in Google Colab will cause exception. The workaround is as follow:
-> ```{python}
+
+ ```{python}
 from google.colab.patches import cv2_imshow
 cv2_imshow(image)
-> ```
+```
