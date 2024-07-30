@@ -13,7 +13,7 @@ The dataset can be found at: `images/w8/apples`
 ### Deliverable example
 Example input image:
 
-![apple image](images/w8/apples/apple1.jpg)
+![apple image](apple1.jpg)
 
 Example of corresponding output segmented image:
 
