@@ -8,7 +8,7 @@
 - **Resources**: OpenCV
 
 ### Dataset
-The dataset can be found at: `images/w8/apples`
+The dataset can be found at: `images/w8/circles`
 
 ### Deliverable example
 Example input image:
