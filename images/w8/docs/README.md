@@ -23,10 +23,5 @@ To accomplish OCR with Python on Windows, you will need Python and OpenCV which 
 The dataset can be found at: `images/w8/docs`
 
 ### Deliverable example
-Example input image:
+Be able to print out the text present in an image on console.
 
-![apple image](clock.jpg)
-
-Example of corresponding output segmented image:
-
-![clock jpg_res](https://github.com/user-attachments/assets/09b8f4a4-b553-4369-a4f2-7ff6be9a64d7)
