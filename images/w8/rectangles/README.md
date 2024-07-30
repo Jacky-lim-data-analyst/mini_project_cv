@@ -17,4 +17,4 @@ Example input image:
 
 Example of corresponding output segmented image:
 
-![ipad](https://github.com/user-attachments/assets/9aba63a5-ba1f-4f31-a438-24c46917c6af)
+![ipad_res](https://github.com/user-attachments/assets/45cb45f7-db09-4230-9940-6f8ace843e86)
