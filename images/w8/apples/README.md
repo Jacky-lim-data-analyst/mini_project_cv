@@ -3,9 +3,9 @@
 ## Project title: Red and green apples detection
 
 ### Overview
-**Objective**: segment the red and green apples (objects) in different images.
-**Recommended method**: Color-based approach
-**Resources**: OpenCV
+- **Objective**: segment the red and green apples (objects) in different images.
+- **Recommended method**: Color-based approach
+- **Resources**: OpenCV
 
 ### Dataset
 The dataset can be found at: `images/w8/apples`
