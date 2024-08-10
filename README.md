@@ -167,7 +167,7 @@ The dataset can be found at [Kaggle](https://www.kaggle.com/datasets/mbkinaci/fr
 - **Resources**: OpenCV, NumPy.
 
 ### Dataset
-The dataset can be found at `mini_project_cv/`
+The dataset can be found at `mini_project_cv/w9/malaysia_car_plate`
 
 ### Deliverable example
 ![res5](https://github.com/user-attachments/assets/6606063a-63e2-4d91-bd07-3492c1c62d2b)
