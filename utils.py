@@ -142,3 +142,105 @@ def auto_canny(img, method=None, sigma=0.33):
     lowTh = (1 - sigma) * retVal
     highTh = (1 + sigma) * retVal
     return cv.Canny(img, lowTh, highTh)
+
+def resize_aspect_ratio(img, width=500, interpolation=cv.INTER_LINEAR):
+    """Resize image with consistent aspect ratio
+    Arguments:
+    ---
+    img: source image (uint8)
+    width: user defined width (int)
+    interpolation: `interpolation` argument of cv.resize()
+    
+    Returns:
+    ---
+    destination image (uint8)"""
+    f = width / img.shape[1]
+    return cv.resize(img, None, fx=f, fy=f, interpolation=interpolation)
+
+def nms(bounding_boxes, confidence_score, threshold=0.5):
+    """Perform non-maximal suppression:
+    Arguments:
+    ---
+    bounding_boxes: list of bounding boxes in (x1, y1, x2, y2)
+    confidence_score: list of scores associated with each bounding box
+    threshold: IOU threshold (default=0.5)
+    Returns:
+    ---
+    list of remaining bounding boxes with their confidence scores"""
+    if len(bounding_boxes) == 0:
+        return [], []
+
+    # Bounding boxes
+    boxes = np.array(bounding_boxes)
+
+    # coordinates of bounding boxes
+    start_x = boxes[:, 0]
+    start_y = boxes[:, 1]
+    end_x = start_x + boxes[:, 2]
+    end_y = start_y + boxes[:, 3]
+
+    # Confidence scores of bounding boxes
+    score = np.array(confidence_score)
+
+    # Picked bounding boxes
+    picked_boxes = []
+    picked_score = []
+
+    # Compute areas of bounding boxes
+    areas = (end_x - start_x + 1) * (end_y - start_y + 1)
+
+    # Sort by confidence score of bounding boxes
+    order = np.argsort(score)
+
+    # Iterate bounding boxes
+    while order.size > 0:
+        # The index of largest confidence score
+        index = order[-1]
+
+        # Pick the bounding box with largest confidence score
+        picked_boxes.append(bounding_boxes[index])
+        picked_score.append(confidence_score[index])
+
+        # Compute ordinates of intersection-over-union(IOU)
+        x1 = np.maximum(start_x[index], start_x[order[:-1]])
+        x2 = np.minimum(end_x[index], end_x[order[:-1]])
+        y1 = np.maximum(start_y[index], start_y[order[:-1]])
+        y2 = np.minimum(end_y[index], end_y[order[:-1]])
+
+        # Compute areas of intersection-over-union
+        w = np.maximum(0.0, x2 - x1 + 1)
+        h = np.maximum(0.0, y2 - y1 + 1)
+        intersection = w * h
+
+        # Compute the ratio between intersection and union
+        ratio = intersection / (areas[index] + areas[order[:-1]] - intersection)
+
+        left = np.where(ratio < threshold)
+        order = order[left]
+
+    return picked_boxes, picked_score
+
+def computeIOUandDice(boxA, boxB):
+    """IOU computation
+    Arguments:
+    ---
+    boxA: bounding box in (x1, y1, x2, y2)
+    boxB: same format as boxA
+    
+    Returns:
+    ---
+    Scalar IOU value and Dice coefficient"""
+    x_start = max(boxA[0], boxB[0])
+    y_start = max(boxA[1], boxB[1])
+    x_end = min(boxA[2], boxB[2])
+    y_end = min(boxA[3], boxB[3])
+
+    intersection_area = max(0, (x_end-x_start+1)) * max(0, (y_end-y_start+1))
+
+    # area of bounding boxes
+    areaA = (boxA[2] - boxA[0] + 1) * (boxA[3] - boxA[1] + 1)
+    areaB = (boxB[2] - boxB[0] + 1) * (boxB[3] - boxB[1] + 1)
+    
+    IOU = intersection_area / (areaA + areaB - intersection_area)
+    Dice = 2 * (intersection_area) / (areaA + areaB)
+    return IOU, Dice
