@@ -134,3 +134,41 @@ The dataset can be found at: `images/w8/docs`
 Be able to print out the text present in an image on console.
 
 ---
+# Week 9 in-class projects
+
+## Project: Image classification: Santa or not
+### Overview
+- **Objective**: Train and evaluate ML models to categorize whether an image contains Santa or not.
+- **Recommended method**: Traditional machine learning algorithm, which consists of feature extraction and machine learning classifier.
+- **Resources**: OpenCV, sklearn, NumPy.
+
+### Dataset
+The dataset can be found at [Kaggle](https://www.kaggle.com/datasets/deepcontractor/is-that-santa-image-classification)
+
+### Deliverable example
+Given an input image, the model will provide a dichotomous variable: ("not-a-santa", "santa").
+
+## Project: Apple detector
+### Overview
+- **Objective**: Develop and train HOG + Linear SVM pipeline that can detect apples in images.
+- **Recommended method**: HOG and Linear SVM
+- **Resources**: OpenCV, sklearn, NumPy.
+
+### Dataset
+The dataset can be found at [Kaggle](https://www.kaggle.com/datasets/mbkinaci/fruit-images-for-object-detection)
+
+### Deliverable example
+<img width="521" alt="image" src="https://github.com/user-attachments/assets/df04361b-bd91-4e74-9392-ee0d7ed4b450">
+
+## Project: Car plate detection
+### Overview
+- **Objective**: Develop a **robust** car plate detector.
+- **Recommended method**: Pretrained YOLO or SSD object detector and dedicated image processing algorithms (edge detection, morphological operations, thresholding, contour detection and etc).
+- **Resources**: OpenCV, NumPy.
+
+### Dataset
+The dataset can be found at `mini_project_cv/`
+
+### Deliverable example
+![res5](https://github.com/user-attachments/assets/6606063a-63e2-4d91-bd07-3492c1c62d2b)
+
