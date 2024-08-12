@@ -40,12 +40,13 @@ Starting from week 2, the course outline is as follows:
 - Week 9 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_demo_project.ipynb)
 - Week 10 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_dl_with_keras.ipynb)
 
+
 <div style="background-color: #f0f8ff; border-left: 6px solid #4682b4; padding: 15px; margin-bottom: 15px;">
   <h3 style="color: #4682b4; margin-top: 0;">📌 Important</h3>
-  <p style="color: #333; margin-bottom: 0;">
     Starting from week 10, all the notebooks uploaded involves training of deep learning model, which requires GPU computing power. If your device does not have GPU, it is recommended to run the codes in Google Colab.
-  </p>
 </div>
+
+---
 
 > **Warning** 🚨
 > It should be noted that the execution of `cv.imshow()` in Google Colab will cause exception. The workaround is as follow:
