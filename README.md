@@ -77,6 +77,9 @@ Example of corresponding output segmented image:
 
 ![app0_res](https://github.com/user-attachments/assets/20d59b34-6dc4-4b8a-a63c-636b0d7dcfdf)
 
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_color_segmentation.ipynb)
+
 ## Project title: circles detection
 
 ### Overview
@@ -96,6 +99,8 @@ Example of corresponding output segmented image:
 
 ![clock jpg_res](https://github.com/user-attachments/assets/09b8f4a4-b553-4369-a4f2-7ff6be9a64d7)
 
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_circle_rect.ipynb)
 
 ## Project title: rectangles detection
 
@@ -116,6 +121,8 @@ Example of corresponding output segmented image:
 
 ![ipad_res](https://github.com/user-attachments/assets/45cb45f7-db09-4230-9940-6f8ace843e86)
 
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_circle_rect.ipynb)
 
 ## Project title: Document scanner and OCR
 
@@ -141,6 +148,9 @@ The dataset can be found at: `images/w8/docs`
 
 ### Deliverable example
 Be able to print out the text present in an image on console.
+
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_document_ocr.ipynb)
 
 ---
 # Week 9 in-class projects
