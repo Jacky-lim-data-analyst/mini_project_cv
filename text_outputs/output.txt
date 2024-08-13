@@ -1,0 +1,106 @@
+doc_ocr4.jpg: 
+ |
+NOT TESTED ON ANIMALS
+
+pay
+ 
+
+receipt1.jpeg: 
+ Main Street Restaurant
+6332 Business Drive
+
+Suite 528
+
+Palo Alto california 94301
+
+575-1628095
+
+Fri 04/07/2017 11:36 AM
+
+Merchant ID: 9hqjxvufdr
+Terminal ID: 11111
+Transaction ID: #e6d598eT
+Type: CREDIT
+PURCHASE
+Number:  XXXXXXXXXXXX0041
+Entry Mode: Swiped
+Card Type: DISCOVER
+Response: APPROVED
+Approval Code: 819543
+Sub Total USD$ 25.23
+Viele eA
+Total USD$ 29.01
+
+Thanks for suppor ting
+local business!
+
+THANK YOU
+ 
+
+receipt2.webp: 
+ No.
+Received from
+
+the sum of pesos
+
+RECEIPT
+
+Date —
+
+HS 108
+
+A
+
+as payment for
+
+p
+
+Signature
+ 
+
+receipt3.jpg: 
+ TESCO
+
+— ae ae ome
+
+Metro
+Pl TEL 0845 677921¢
+
+F9ESH MILK 18
+MJESLI 2129
+DARK CHOCOLATE » F
+26 £0.95 1.90
+
+TOTAL 5. Of
+MASTERCARD SALE 508
+
+AID : A0000000041019
+
+NJMBER 1 KKK ERHKKKKKKO IGE tcc
+
+PAN SEQ NO : 02
+
+AUTH CODE ; 036017
+
+MERCHANT : 1833431
+
+START : 10/10 EXPIRY : 11/13
+
+Cardholder PIN Verified
+CHANGE QUE
+
+R_634004902428294x
+POINTS THIS VISIT 5
+TOTAL UP TO 22/04/12 717
+TOTAL INCLUDES ;
+T?F BONUS POINTS 360
+
+. “
+
+How did we do?
+Visit www.tescocomments com and
+tell us about your shopping trip
+
+23/04/12 19:51 2497 004 1004 1625
+ 
+
