@@ -192,3 +192,47 @@ The dataset can be found at `mini_project_cv/w9/malaysia_car_plate`
 ### Deliverable example
 ![res5](https://github.com/user-attachments/assets/6606063a-63e2-4d91-bd07-3492c1c62d2b)
 
+---
+
+# Week 10 in-class project 
+
+## Project title: Medical Mnist image classification
+
+### Overview
+- **Objective**: train a custom deep learning model to categorize the medical MNIST dataset.
+- **Recommended method**: custom CNN classifier
+- **Resources**: Tensorflow, Keras, PyTorch and OpenCV. Use [Google Colab](https://colab.google/) or [Kaggle notebook](https://www.kaggle.com/code) for free access of GPU for model training.
+
+### Dataset
+Sample dataset can be found on [Kaggle](https://www.kaggle.com/datasets/andrewmvd/medical-mnist)
+
+### Deliverable example
+![image](https://github.com/user-attachments/assets/b1bba2ad-b97b-42ba-b792-221374cc373a)
+
+## Project title: Sports ball recognition
+
+### Overview
+- **Objective**: Leverage transfer learning (pretrained model fine-tunung) to categorize the types of sports ball.
+- **Recommended method**: Pretrained model like ResNet, VGG16, VGG19, MobileNet and etc.
+- **Resources**: Tensorflow, Keras, PyTorch and OpenCV. Use [Google Colab](https://colab.google/) or [Kaggle notebook](https://www.kaggle.com/code) for free access of GPU for model training.
+
+### Dataset
+Sample dataset can be found on [Kaggle](https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification)
+
+### Deliverable example
+![image](https://github.com/user-attachments/assets/caea0106-a77b-4741-8685-47c09bc995bb)
+
+## Project title: Denoising "dirty" documents
+
+### Overview
+- **Objective**: Train a CNN based deep learning model to clean up the "noisy" scanned documents.
+- **Recommended method**: Autoencoder architecture.
+- **Resources**: Tensorflow, Keras, PyTorch and OpenCV. Use [Google Colab](https://colab.google/) or [Kaggle notebook](https://www.kaggle.com/code) for free access of GPU for model training.
+
+### Dataset
+Sample dataset can be found on [Kaggle](https://www.kaggle.com/competitions/denoising-dirty-documents/data)
+
+### Deliverable example
+![image](https://github.com/user-attachments/assets/ae63c7e8-e032-4475-a2d8-f9c8b5da55ae)
+
+
