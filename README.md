@@ -168,6 +168,9 @@ The dataset can be found at [Kaggle](https://www.kaggle.com/datasets/deepcontrac
 ### Deliverable example
 Given an input image, the model will provide a dichotomous variable: ("not-a-santa", "santa").
 
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_ml_classification.ipynb)
+
 ## Project: Apple detector
 ### Overview
 - **Objective**: Develop and train HOG + Linear SVM pipeline that can detect apples in images.
@@ -180,6 +183,11 @@ The dataset can be found at [Kaggle](https://www.kaggle.com/datasets/mbkinaci/fr
 ### Deliverable example
 <img width="521" alt="image" src="https://github.com/user-attachments/assets/df04361b-bd91-4e74-9392-ee0d7ed4b450">
 
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_obj_det.ipynb)
+
+> You can find the pipeline outputs in `mini_project_cv/images/w9/malaysia_car_plate/results`.
+
 ## Project: Car plate detection
 ### Overview
 - **Objective**: Develop a **robust** car plate detector.
@@ -191,6 +199,11 @@ The dataset can be found at `mini_project_cv/w9/malaysia_car_plate`
 
 ### Deliverable example
 ![res5](https://github.com/user-attachments/assets/6606063a-63e2-4d91-bd07-3492c1c62d2b)
+
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_obj_det.ipynb)
+
+> You can find the pipeline outputs in `mini_project_cv/obj_det/hog_svm`
 
 ---
 
