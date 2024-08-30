@@ -222,6 +222,9 @@ Sample dataset can be found on [Kaggle](https://www.kaggle.com/datasets/andrewmv
 ### Deliverable example
 ![image](https://github.com/user-attachments/assets/b1bba2ad-b97b-42ba-b792-221374cc373a)
 
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_grayscale_img_class_dl.ipynb)
+
 ## Project title: Sports ball recognition
 
 ### Overview
@@ -234,6 +237,9 @@ Sample dataset can be found on [Kaggle](https://www.kaggle.com/datasets/samuelco
 
 ### Deliverable example
 ![image](https://github.com/user-attachments/assets/caea0106-a77b-4741-8685-47c09bc995bb)
+
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_cnn_multiclass_image.ipynb)
 
 ## Project title: Denoising "dirty" documents
 
@@ -248,4 +254,5 @@ Sample dataset can be found on [Kaggle](https://www.kaggle.com/competitions/deno
 ### Deliverable example
 ![image](https://github.com/user-attachments/assets/ae63c7e8-e032-4475-a2d8-f9c8b5da55ae)
 
-
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_autoencoder_denoise.ipynb)
