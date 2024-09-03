@@ -1,4 +1,4 @@
-# Mini Project (Computer vision)
+![image](https://github.com/user-attachments/assets/32b1e0f9-93f8-4170-bd31-b312be3b1f50)# Mini Project (Computer vision)
 
 ## Course overview
 
@@ -203,7 +203,7 @@ The dataset can be found at `mini_project_cv/w9/malaysia_car_plate`
 ### Sample solution
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_obj_det.ipynb)
 
-> You can find the pipeline outputs in `mini_project_cv/obj_det/hog_svm`
+> You can find the pipeline outputs in `mini_project_cv/obj_det/hog_svm`. To detect car in an image, we can leverage pretrained MobileNet + SSD model with OpenCV `dnn` module. The MobileNet + SSD model is first trained on COCO dataset and then fine-tuned on Pascal VOC dataset. The network architecture (.prototxt) and model weight (.caffemodel) files can be found on this [GitHub repo](https://github.com/djmv/MobilNet_SSD_opencv.git)
 
 ---
 
@@ -256,3 +256,56 @@ Sample dataset can be found on [Kaggle](https://www.kaggle.com/competitions/deno
 
 ### Sample solution
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_autoencoder_denoise.ipynb)
+
+---
+
+# Week 11 in-class project 
+
+## Project title: Segmentation of plantations images
+
+### Overview
+- **Objective**: Able to identify and segregate the vegetation regions by applying image segmentation methods.
+- **Recommended method**: K-means clustering and watershed segmentation
+- **Resources**: OpenCV, scikit-learn, matplotlib
+
+### Dataset
+Sample dataset can be found on [Kaggle](https://www.kaggle.com/datasets/trainingdatapro/plantations-segmentation)
+
+### Deliverable example
+![image](https://github.com/user-attachments/assets/e5e0994f-513f-4e89-ace8-9913cebadc57)
+
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w11_imageSeg.ipynb)
+
+## Project title: Flood area segmentation with drone images
+
+### Overview
+- **Objective**: Able to identify and segregate the flood area segmentation (pixel-level classification) by applying semantic segmentation methods.
+- **Recommended method**: Deep learning semantic segmentation techniques like U-Net, SegNet, DeepLabV3+ and etc.
+- **Resources**: Tensorflow, Keras, PyTorch and OpenCV. Use [Google Colab](https://colab.google/) or [Kaggle notebook](https://www.kaggle.com/code) for free access of GPU for model training.
+
+### Dataset
+Sample dataset can be found on [Kaggle](https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation)
+
+### Deliverable example
+![image](https://github.com/user-attachments/assets/58b95877-6bf4-4311-8dc0-b42bdde0cd73)
+
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/segment_flood_area.ipynb)
+
+## Project title: Human segmentation
+
+### Overview
+- **Objective**: Predict human segmentation mask.
+- **Recommended method**: Deep learning semantic segmentation techniques like U-Net, SegNet, DeepLabV3+ and etc.
+- **Resources**: Tensorflow, Keras, PyTorch and OpenCV. Use [Google Colab](https://colab.google/) or [Kaggle notebook](https://www.kaggle.com/code) for free access of GPU for model training.
+
+### Dataset
+Sample dataset can be found on [Kaggle]([https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset))
+
+### Deliverable example
+![image](https://github.com/user-attachments/assets/fe8b394a-f359-4140-b8ca-d078e49f2de2)
+
+### Sample solution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/segmentation_human.ipynb)
+
