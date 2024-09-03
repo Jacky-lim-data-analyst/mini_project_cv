@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/32b1e0f9-93f8-4170-bd31-b312be3b1f50)# Mini Project (Computer vision)
+# Mini Project (Computer vision)
 
 ## Course overview
 
