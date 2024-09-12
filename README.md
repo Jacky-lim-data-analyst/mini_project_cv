@@ -20,7 +20,19 @@ Starting from week 2, the course outline is as follows:
 | [`w2_tut_ans.ipynb`](w2_tut_ans.ipynb) | Exercise solutions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tut_ans.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tut_ans.ipynb) |
 
 2. Basic image & video operations
+
+| File names | Descriptions | Open with Colab | Open with Kaggle |
+| ---- | ---- | ---- | ---- |
+| [`w3_tutorial.ipynb`](w3_tutorial.ipynb) | Basic operations (e.g. read, save and display) images & videos | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w3_tutorial.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w3_tutorial.ipynb) |
+| [`w3_tut_ans.ipynb`](w3_tut_ans.ipynb) | Exercise solutions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w3_tut_ans.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w3_tut_ans.ipynb) |
+
 3. Basic concepts of digital image
+
+| File names | Descriptions | Open with Colab | Open with Kaggle |
+| ---- | ---- | ---- | ---- |
+| [`w4_tutorial.ipynb`](w4_tutorial.ipynb) | Image cropping, color spaces, image channels and point operators | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w4_tutorial.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w4_tutorial.ipynb) |
+| [`w4_tut_ans.ipynb`](w4_tut_ans.ipynb) | Exercise solutions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w4_tut_ans.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w4_tut_ans.ipynb) |
+
 4. Image processing I
 5. Image processing II
 6. Edge detection
