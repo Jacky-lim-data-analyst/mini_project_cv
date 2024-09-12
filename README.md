@@ -16,7 +16,7 @@ Starting from week 2, the course outline is as follows:
 
 | File names | Descriptions | Open with Colab | Open with Kaggle |
 | ---- | ---- | ---- | ---- |
-| [`w2_tutorial.ipynb`](blob/main/w2_tutorial.ipynb) | Python fundamentals and create custom images with NumPy | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tutorial.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tutorial.ipynb) |
+| [`w2_tutorial.ipynb`](w2_tutorial.ipynb) | Python fundamentals and create custom images with NumPy | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tutorial.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tutorial.ipynb) |
 | `w2_tut_ans.ipynb` | Exercise solutions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tut_ans.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tut_ans.ipynb) |
 
 2. Basic image & video operations
