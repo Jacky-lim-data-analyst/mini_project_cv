@@ -3,6 +3,8 @@
 ## Course overview
 This repository provides a comprehensive collection of course materials to help you learn and understand the fundamentals of computer vision. The materials are designed in the form of Jupyter notebooks to guide you through various CV tasks, from basic image processing to advanced applications using machine learning and deep learning.
 
+This repository is intended to serve as a starting point for your learning journey. You are encouraged to explore further resources and experiment with different techniques.
+
 ## Prerequisite
 - Basic programming skills (preferably in Python)
 - Familiarity with linear algebra, calculus, probability, statistics.
@@ -10,7 +12,7 @@ This repository provides a comprehensive collection of course materials to help 
 - Familiarity with NumPy, pandas and matplotlib.
 
 ## Course content
-Starting from week 2, the course outline is as follows:
+The course outline is as follows:
 1. Python fundamentals
 
 | File names | Descriptions | Open with Colab | Open with Kaggle |
