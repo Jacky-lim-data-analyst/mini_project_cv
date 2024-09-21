@@ -1,8 +1,7 @@
 # Introduction of Computer Vision with Python
 
-## Table of contents
-
 ## Course overview
+This repository provides a comprehensive collection of course materials to help you learn and understand the fundamentals of computer vision. The materials are designed in the form of Jupyter notebooks to guide you through various CV tasks, from basic image processing to advanced applications using machine learning and deep learning.
 
 ## Prerequisite
 - Basic programming skills (preferably in Python)
@@ -34,33 +33,59 @@ Starting from week 2, the course outline is as follows:
 | [`w4_tut_ans.ipynb`](w4_tut_ans.ipynb) | Exercise solutions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w4_tut_ans.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w4_tut_ans.ipynb) |
 
 4. Image processing I
+
+| File names | Descriptions | Open with Colab | Open with Kaggle |
+| ---- | ---- | ---- | ---- |
+| [`w5_tutorial.ipynb`](w5_tutorial.ipynb) | Contrast enhancement techniques, gamma correction, OpenCV drawing functions, Geometric transformation, Image augmentation techniques, and bitwise operations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w5_tutorial.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w5_tutorial.ipynb) |
+| [`w5_tut_ans.ipynb`](w5_tut_ans.ipynb) | Exercise solutions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w5_tut_ans.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w5_tut_ans.ipynb) |
+
 5. Image processing II
-6. Edge detection
-7. Color-based segmentation
-8. Image classification (Traditional ML & DL)
-9. Semantic segmentation
 
-## Course materials & References
+| File names | Descriptions | Open with Colab | Open with Kaggle |
+| ---- | ---- | ---- | ---- |
+| [`w6_tutorial.ipynb`](w6_tutorial.ipynb) | Thresholding techniques, convolution operations for different use cases, edge detectors, and contour detections | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tutorial.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tutorial.ipynb) |
+| [`w6_tut_ans.ipynb`](w6_tut_ans.ipynb) | Exercise solutions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tut_ans.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tut_ans.ipynb) |
 
-## Assignment & Projects
-- Weekly programming assignments
-- In-class projects: Developing a complete pipeline / model to tackle CV problems
+6. In-class projects I
 
-## Access notebooks in Google colab
-- Week 2 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tutorial.ipynb)
-   - Week 2 Exercise solution: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w2_tut_ans.ipynb)
-- Week 3 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w3_tutorial.ipynb)
-   - Week 3 Exercise solution: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w3_tut_ans.ipynb)
-- Week 4 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w4_tutorial.ipynb)
-   - Week 4 Exercise solution: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w4_tut_ans.ipynb)
-- Week 5 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w5_tutorial.ipynb)
-   - Week 5 Exercise solution: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w5_tut_ans.ipynb)
-- Week 6 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tutorial.ipynb)
-   - Week 6 Exercise solution: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tut_ans.ipynb)
-- Week 8 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_demo_project.ipynb)
-- Week 9 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_demo_project.ipynb)
-- Week 10 notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_dl_with_keras.ipynb)
+| File names | Descriptions | Open with Colab | Open with Kaggle |
+| ---- | ---- | ---- | ---- |
+| [`w8_demo_project.ipynb`](w8_demo_project.ipynb) | Demo of color-based segmentation and IOU & Dice computation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_demo_project.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_demo_project.ipynb) |
+| [`w8_color_segmentation.ipynb`](w8_color_segmentation.ipynb) | Red & green apples detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_color_segmentation.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_color_segmentation.ipynb) |
+| [`w8_circle_rect.ipynb`](w8_circle_rect.ipynb) | Circular & rectangular object detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_circle_rect.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_circle_rect.ipynb) |
+| [`w8_document_ocr.ipynb`](w8_document_ocr.ipynb) | Document optical character recognition (OCR) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_document_ocr.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_document_ocr.ipynb) |
 
+7. In-class projects II
+
+| File names | Descriptions | Open with Colab | Open with Kaggle |
+| ---- | ---- | ---- | ---- |
+| [`w9_demo_project.ipynb`](w9_demo_project.ipynb) | kNN classifier, HOG descriptor, example of end-to-end image classification with traditional ML workflow | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_demo_project.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_demo_project.ipynb) |
+| [`w9_ml_classification.ipynb`](w9_ml_classification.ipynb) | Binary image classification problem | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_ml_classification.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_ml_classification.ipynb) |
+| [`w9_obj_det.ipynb`](w9_obj_det.ipynb) | Apples detector & car plate detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_obj_det.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_obj_det.ipynb) |
+
+8. In-class projects III (GPU needed 🎟)
+
+| File names | Descriptions | Open with Colab |
+| ---- | ---- | ---- |
+| [`w10_dl_with_keras.ipynb`](w10_dl_with_keras.ipynb) | Gentle intro to Keras + Tensorflow DL framework and a simple example of image classification with CNN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_dl_with_keras.ipynb) | 
+| [`w10_grayscale_img_class_dl.ipynb`](w10_grayscale_img_class_dl.ipynb) | Medical mnist image classification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_grayscale_img_class_dl.ipynb) | 
+| [`w10_cnn_multiclass_image.ipynb`](w10_cnn_multiclass_image.ipynb) | Sports ball image classification problem | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_cnn_multiclass_image.ipynb) | 
+| [`w10_autoencoder_denoise.ipynb`](w10_autoencoder_denoise.ipynb) | Image denoising with autoencoder | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_autoencoder_denoise.ipynb) | 
+
+9. In-class projects IV (GPU needed 🎟)
+
+| File names | Descriptions | Open with Colab |
+| ---- | ---- | ---- |
+| [`w10_dl_with_keras.ipynb`](w10_dl_with_keras.ipynb) | Gentle intro to Keras + Tensorflow DL framework and a simple example of image classification with CNN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_dl_with_keras.ipynb) | 
+| [`w10_grayscale_img_class_dl.ipynb`](w10_grayscale_img_class_dl.ipynb) | Medical mnist image classification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_grayscale_img_class_dl.ipynb) | 
+| [`w10_cnn_multiclass_image.ipynb`](w10_cnn_multiclass_image.ipynb) | Sports ball image classification problem | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_cnn_multiclass_image.ipynb) | 
+| [`w10_autoencoder_denoise.ipynb`](w10_autoencoder_denoise.ipynb) | Image denoising with autoencoder | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_autoencoder_denoise.ipynb) |
+
+## References
+1. [PyImageSearch](https://pyimagesearch.com/)
+2. [LearnOpenCV](https://learnopencv.com/)
+3. [Keras official website](https://keras.io/)
+4. [Tensorflow official webpage](https://www.tensorflow.org/)
 
 <div style="background-color: #f0f8ff; border-left: 6px solid #4682b4; padding: 15px; margin-bottom: 15px;">
   <h3 style="color: #4682b4; margin-top: 0;">📌 Important</h3>
