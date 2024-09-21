@@ -13,6 +13,7 @@ This repository is intended to serve as a starting point for your learning journ
 
 ## Course content
 The course outline is as follows:
+
 1. Python fundamentals
 
 | File names | Descriptions | Open with Colab | Open with Kaggle |
@@ -48,7 +49,7 @@ The course outline is as follows:
 | [`w6_tutorial.ipynb`](w6_tutorial.ipynb) | Thresholding techniques, convolution operations for different use cases, edge detectors, and contour detections | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tutorial.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tutorial.ipynb) |
 | [`w6_tut_ans.ipynb`](w6_tut_ans.ipynb) | Exercise solutions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tut_ans.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w6_tut_ans.ipynb) |
 
-6. In-class projects I
+6. In-class projects I: simple object of interest detection
 
 | File names | Descriptions | Open with Colab | Open with Kaggle |
 | ---- | ---- | ---- | ---- |
@@ -57,7 +58,7 @@ The course outline is as follows:
 | [`w8_circle_rect.ipynb`](w8_circle_rect.ipynb) | Circular & rectangular object detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_circle_rect.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_circle_rect.ipynb) |
 | [`w8_document_ocr.ipynb`](w8_document_ocr.ipynb) | Document optical character recognition (OCR) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_document_ocr.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w8_document_ocr.ipynb) |
 
-7. In-class projects II
+7. In-class projects II: image classification task with ML and more advanced object of interest detection
 
 | File names | Descriptions | Open with Colab | Open with Kaggle |
 | ---- | ---- | ---- | ---- |
@@ -65,7 +66,7 @@ The course outline is as follows:
 | [`w9_ml_classification.ipynb`](w9_ml_classification.ipynb) | Binary image classification problem | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_ml_classification.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_ml_classification.ipynb) |
 | [`w9_obj_det.ipynb`](w9_obj_det.ipynb) | Apples detector & car plate detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_obj_det.ipynb) | [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/Jacky-lim-data-analyst/mini_project_cv/blob/main/w9_obj_det.ipynb) |
 
-8. In-class projects III (GPU needed 🎟)
+8. In-class projects III (GPU needed 🎟): Image classification and denoising with DL models
 
 | File names | Descriptions | Open with Colab |
 | ---- | ---- | ---- |
@@ -74,14 +75,14 @@ The course outline is as follows:
 | [`w10_cnn_multiclass_image.ipynb`](w10_cnn_multiclass_image.ipynb) | Sports ball image classification problem | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_cnn_multiclass_image.ipynb) | 
 | [`w10_autoencoder_denoise.ipynb`](w10_autoencoder_denoise.ipynb) | Image denoising with autoencoder | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_autoencoder_denoise.ipynb) | 
 
-9. In-class projects IV (GPU needed 🎟)
+9. In-class projects IV (GPU needed 🎟): Semantic segmentation with both traditional unsupervised ML methods and more advanced DL model (U-Net)
 
 | File names | Descriptions | Open with Colab |
 | ---- | ---- | ---- |
-| [`w10_dl_with_keras.ipynb`](w10_dl_with_keras.ipynb) | Gentle intro to Keras + Tensorflow DL framework and a simple example of image classification with CNN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_dl_with_keras.ipynb) | 
-| [`w10_grayscale_img_class_dl.ipynb`](w10_grayscale_img_class_dl.ipynb) | Medical mnist image classification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_grayscale_img_class_dl.ipynb) | 
-| [`w10_cnn_multiclass_image.ipynb`](w10_cnn_multiclass_image.ipynb) | Sports ball image classification problem | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_cnn_multiclass_image.ipynb) | 
-| [`w10_autoencoder_denoise.ipynb`](w10_autoencoder_denoise.ipynb) | Image denoising with autoencoder | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w10_autoencoder_denoise.ipynb) |
+| [`w11_demo_project.ipynb`](w11_demo_project.ipynb) | Intro to common image segmentation algorithms: k-means clustering and watershed segmentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w11_demo_project.ipynb) | 
+| [`w11_imageSeg.ipynb`](w11_imageSeg.ipynb) | Segmentation of plantations' images taken from UAV | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/w11_imageSeg.ipynb) | 
+| [`segment_flood_area.ipynb`](segment_flood_area.ipynb) | Flood area segmentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/segment_flood_area.ipynb) | 
+| [`segmentation_human.ipynb`](segmentation_human.ipynb) | Human segmentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/segmentation_human.ipynb) |
 
 ## References
 1. [PyImageSearch](https://pyimagesearch.com/)
@@ -91,7 +92,7 @@ The course outline is as follows:
 
 <div style="background-color: #f0f8ff; border-left: 6px solid #4682b4; padding: 15px; margin-bottom: 15px;">
   <h3 style="color: #4682b4; margin-top: 0;">📌 Important</h3>
-    Starting from week 10, all the notebooks uploaded involves training of deep learning model, which requires GPU computing power. If your device does not have GPU, it is recommended to run the codes in Google Colab.
+    All the notebooks uploaded for in-class project III and IV involves training of deep learning model, which requires GPU computing power. If your device does not have GPU, it is recommended to run the codes in Google Colab.
 </div>
 
 ---
