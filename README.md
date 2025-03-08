@@ -84,6 +84,12 @@ The course outline is as follows:
 | [`segment_flood_area.ipynb`](segment_flood_area.ipynb) | Flood area segmentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/segment_flood_area.ipynb) | 
 | [`segmentation_human.ipynb`](segmentation_human.ipynb) | Human segmentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/segmentation_human.ipynb) |
 
+10. Extra image processing techniques
+
+| File names | Descriptions | Open With Colab |
+| --- | --- | --- |
+| [`extra_image_processing.ipynb`](extra_image_processing.ipynb) | Intro to common image segmentation algorithms: k-means clustering and watershed segmentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jacky-lim-data-analyst/mini_project_cv/blob/main/extra_image_processing.ipynb) | 
+
 ## References
 1. [PyImageSearch](https://pyimagesearch.com/)
 2. [LearnOpenCV](https://learnopencv.com/)
